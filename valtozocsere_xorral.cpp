@@ -12,9 +12,9 @@ int main()
 	cout << "\nElso valtozo= " << a << "\n";
 	cout << "Masodik valtozo= " << b << "\n\n";
 
-	a ^= a b;
-	b ^= a b;
-	a ^= a b;
+	a = a ^ b;
+	b = a ^ b;
+	a = a ^ b;
 
 	cout << "Csere utan:\n"
 		"a= " << a << "\n"
